@@ -1,6 +1,13 @@
 # Aws-Gatsby-Terraform
 AWS - Gatsby Website Creating by Using Terraform
 
+
+# Prerequisites
+ An AWS account
+A domain added to Route53 in AWS
+A SSL certificate provisioned in AWS ACM for the domain you wish to run Gatsby on. Note, the ACM certificate must be in the us-east-1 region for CloudFront.
+Terraform version 0.12.20 or greater
+
 # Creating SSL Certificate
 # STEPS :
 1 Go to AWS Management
