@@ -1,8 +1,8 @@
 # Aws-Gatsby-Terraform
 AWS - Gatsby Website Creating by Using Terraform
 
-Creating SSL Certificate
-STEPS :
+# Creating SSL Certificate
+# STEPS :
 1 Go to AWS Management
 2 Go to Amazon Certificate Manager 
 3 Request and Create the Certificate 
@@ -13,8 +13,8 @@ STEPS :
 8 Now SSL Certificate is created successfully.
  
  
-Create Hosted Zone by Route 53
-STEPS :
+# Create Hosted Zone by Route 53
+# STEPS :
      •	Go to the AWS Management Console
       Go to the Route 53 
       Create the DNS Hosted Zone 
@@ -22,10 +22,9 @@ STEPS :
       Create the Hosted Zone.
  
  
+# Create S3, Cloud Front & Route 53 Using Terraform
 
-Create S3, Cloud Front & Route 53 Using Terraform
-
-STEPS :
+# STEPS :
       •	Create the S3 for using the Terraform Codes.
       •	Then upload the Front-end Framework for the Gatsby Website using the AWS Management Console.
       •	Create the Cloud Front by using the Terraform Codes.
@@ -33,7 +32,7 @@ STEPS :
       •	Then the Cloud Front and SSL Certificate are attached using the Terraform Codes.
       
       
-Open the Terminal and do the following Terraform Commands.
+# Open the Terminal and do the following Terraform Commands.
      # terraform init
      # terraform plan
      # terraform validate
@@ -47,8 +46,8 @@ Open the Terminal and do the following Terraform Commands.
 •	Now Deploying the Terraform Codes Successfully.
  
  
-Go to the S3 Bucket
-STEPS :
+# Go to the S3 Bucket
+# STEPS :
         Upload the Gatsby Website Framework 
         Then Copy the Cloud Front Domain URL 
         Paste the Chrome.
