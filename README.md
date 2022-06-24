@@ -3,14 +3,14 @@ AWS - Gatsby Website Creating by Using Terraform
 
 Creating SSL Certificate
 STEPS :
-      •	Go to AWS Management
-       Go to Amazon Certificate Manager 
-       Request and Create the Certificate 
-       Copy the CNAME Name and CNAME Value
-       Open the Freenom Account
-       Go to the Nameservers
-       Paste the CNAME Name and CNAME Value in Freenom Domain.
-      •	Now SSL Certificate is created successfully.
+1 Go to AWS Management
+2 Go to Amazon Certificate Manager 
+3 Request and Create the Certificate 
+4 Copy the CNAME Name and CNAME Value
+5 Open the Freenom Account
+6 Go to the Nameservers
+7 Paste the CNAME Name and CNAME Value in Freenom Domain.
+8 Now SSL Certificate is created successfully.
  
  
 Create Hosted Zone by Route 53
